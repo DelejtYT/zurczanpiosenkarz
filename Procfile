@@ -1,1 +1,1 @@
-worker: java $JAVA_OPTS -cp target/classes:target/dependency/* com.jagrosh.jmusicbot.Bot
+worker: java -jar JMusicBot-0.3.5.jar
