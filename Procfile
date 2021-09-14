@@ -1,1 +1,1 @@
-worker: sh target/bin/worker
+worker: java $JAVA_OPTS -cp target/classes:target/dependency/* com.jagrosh.jmusicbot.Bot
