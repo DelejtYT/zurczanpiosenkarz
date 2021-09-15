@@ -1,5 +1,5 @@
 /////////////////////////////////////////////////////////
-// Config for the JMusicBot                   b        //
+// Config for the JMusicBot                            //
 /////////////////////////////////////////////////////////
 // Any line starting with // is ignored                //
 // You MUST set the token and owner                    //
