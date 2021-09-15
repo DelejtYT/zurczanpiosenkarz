@@ -144,7 +144,7 @@ aliases {
   // Music commands
   lyrics = []
   nowplaying = [ np, current ]
-  play = []
+  play = [p]
   playlists = [ pls ]
   queue = [ list ]
   remove = [ delete ]
@@ -161,11 +161,11 @@ aliases {
 
   // DJ Commands
   forceremove = [ forcedelete, modremove, moddelete, modelete ]
-  forceskip = [ modskip ]
+  forceskip = [ fs ]
   movetrack = [ move ]
   pause = []
   playnext = []
-  repeat = []
+  repeat = [loop]
   skipto = [ jumpto ]
   stop = []
   volume = [ vol ]
