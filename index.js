@@ -927,6 +927,7 @@ bot.on('messageCreate', message => {
 
 bot.on('messageUpdate', (oldMessage, newMessage) => {
 	var wiadomosc = newMessage;
+	global.listaslow = ['papajowa', 'papiezowa', 'papieżowa', 'pope time', 'rzułta godzina']
 	if(listaslow.includes(wiadomosc.toString().toLowerCase())){
 		var the_string = oldMessage.createdAt.toLocaleTimeString();
 		var parts = the_string.split(':', 3);
